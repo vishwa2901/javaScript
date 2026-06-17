@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    overflow: hidden;
+    zoom: 90%;
+}
+
+
+/* Header */
+
+header {
+    background: #1f1f1f;
+    color: white;
+    padding: 25px 50px;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+
+/* Hero */
+
+.hero {
+    height: 650px;
+    background: linear-gradient(to right, #08b8c7, #34414e);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 420px;
+    height: 220px;
+    object-fit: cover;
+    background: white;
+    padding: 10px;
+}
+
+.hero h2 {
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+.hero span {
+    color: #ffd84d;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 26px;
+}
+
+.hero button {
+    margin-top: 25px;
+    padding: 15px 35px;
+    border: none;
+    background: #f3d24d;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+/* About */
+
+.about {
+    text-align: center;
+    padding: 80px 100px;
+}
+
+.about h2 {
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+
+.about p {
+    font-size: 24px;
+}
+
+
+/* Skills */
+
+.skills {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.skills h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.skill-boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.skill-boxes div {
+    background: #e5e5e5;
+    padding: 25px;
+    border-radius: 8px;
+    font-size: 24px;
+}
+
+
+/* Projects */
+
+.projects {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.projects h2 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.project-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: #e5e5e5;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.card p {
+    font-size: 22px;
+}
+
+
+/* Contact */
+
+.contact {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #bfbfbf;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #f3d24d;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+footer {
+    background: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+}

@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.top {
+    position: sticky;
+    top: 0;
+    background: grey;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.video-text {
+    position: sticky;
+    top: 80px;
+    left: 20px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+video {
+    width: 100%;
+    display: block;
+}
