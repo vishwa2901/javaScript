@@ -216,5 +216,4 @@ alert(" Thanks For Using ATM")
 // ================= EXIT =================
 
 service === "4" ?
-    alert("Thank You For Using ATM") :
-    "";
+    alert("Thank You For Using ATM") : "";
