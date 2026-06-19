@@ -194,22 +194,17 @@ Available Balance : ₹${account.balance}` :
 // ================= DEPOSIT =================
 
 let depositAmount =
-    service === "3" ?
-        Number(prompt("Enter Deposit Amount")) :
-        0;
+    service === "3" ? Number(prompt("Enter Deposit Amount")) : 0;
 
 account.balance =
-    service === "3" ?
-        account.balance + depositAmount :
-        account.balance;
+    service === "3" ? account.balance + depositAmount : account.balance;
 
 service === "3" ?
     alert(
         `Deposit Successful
 
 Available Balance : ₹${account.balance}`
-    ) :
-    "";
+    ) : "";
 
 alert(" Thanks For Using ATM")
 
