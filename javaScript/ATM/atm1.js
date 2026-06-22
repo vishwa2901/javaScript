@@ -20,18 +20,11 @@ let validPin1 =
     !isNaN(pin1) &&
     Number(pin1) === account.pin;
 
-alert(
-    validPin1 ?
-        "Login Successful" :
-        "Invalid PIN"
-);
+alert(validPin1 ? "Login Successful" : "Invalid PIN");
 
 // ================= PIN ATTEMPT 2 =================
 
-let pin2 =
-    validPin1 ?
-        pin1 :
-        prompt("Invalid PIN\n\nEnter PIN Again");
+let pin2 = validPin1 ? pin1 : prompt("Invalid PIN\n\nEnter PIN Again");
 
 let validPin2 =
     pin2.length === 4 &&
@@ -60,11 +53,7 @@ let validPin3 =
     Number(pin3) === account.pin;
 
 (!validPin1 && !validPin2) ?
-    alert(
-        validPin3 ?
-            "Login Successful" :
-            "Card Blocked"
-    ) : "";
+    alert(validPin3 ? "Login Successful" : "Card Blocked") : "";
 
 // ================= LOGIN STATUS =================
 
@@ -97,7 +86,7 @@ let validService1 =
     service1 === "3" ||
     service1 === "4";
 
-// loginSuccess ? alert(validService1 ? "Service Selected" : "Invalid Option") : "";
+
 
 // ================= SERVICE ATTEMPT 2 =================
 
