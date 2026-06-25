@@ -15,7 +15,7 @@ let loginStatus = loginPassword === regPassword;
 alert(loginStatus ? "Login Successful! Welcome Back " + loginName : "Invalid Password");
 
 // Customer Details
-// Customer Details
+
 const name = prompt("Enter Customer Name:");
 const license = prompt("Enter License Number:");
 const phone = prompt("Enter Phone Number:");
